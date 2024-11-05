@@ -1,7 +1,7 @@
 import { validate } from 'class-validator';
-import { CreateCharacterDto } from '../../../src/application/dto/create-character.dto';
-import { Item } from '../../../src/domain/entity/item.entity';
-import { Quest } from '../../../src/domain/entity/quest.entity';
+import { CreateCharacterDto } from './create-character.dto';
+import { Item } from '../../domain/entity/item.entity';
+import { Quest } from '../../domain/entity/quest.entity';
 
 describe('CreateCharacterDto', () => {
   let dto: CreateCharacterDto;
