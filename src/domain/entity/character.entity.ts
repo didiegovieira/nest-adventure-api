@@ -2,7 +2,7 @@ import { Entity, PrimaryGeneratedColumn, Column, ManyToMany, JoinTable } from 't
 import { Item } from './item.entity';
 import { Quest } from './quest.entity';
 
-@Entity()
+@Entity('characters')
 export class Character {
   @PrimaryGeneratedColumn()
   id: number;
